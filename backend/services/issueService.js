@@ -28,8 +28,10 @@ issues.push(issue);
 await writeIssues(issues);
 return issue;
 }
+
+
 module.exports = {
 readIssues,
-createIssue,
-updateIssueStatus
+createIssue
+//updateIssueStatus
 };
